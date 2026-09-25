@@ -1,15 +1,14 @@
-# subashvelmurugan1408-r
 <div align="center">
 
 # Hi, I'm Subash 👋
 
-### CS Engineering Student · AI Engineer & Full-Stack Developer
+### CS Engineering Student · ML & Full-Stack Developer
 
 *I build AI-powered apps end to end: from model and API to a deployed, usable interface.*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-subash--codes--ai.lovable.app-6C63FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://subash-codes-ai.lovable.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/subash-v-1557a832b)
-[![Email](https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:subashvelmurugan8@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@example.com)
 
 </div>
 
@@ -17,7 +16,7 @@
 
 ## 🚀 About Me
 
-B.E. Computer Science student at **RVS Institute of Technology, Coimbatore (2024–2028)**. I like projects where machine learning meets a real interface: RAG chatbots, risk-prediction dashboards, medical-image classifiers, and voice assistants. I have an ML internship behind me, 14 public repositories, and several apps live on Render, Vercel, and Streamlit.
+B.E. Computer Science student at **RVS Technical Campus, Coimbatore (2024–2028)**. I like projects where machine learning meets a real interface: RAG chatbots, risk-prediction dashboards, medical-image classifiers, and voice assistants. I have an ML internship behind me, 14 public repositories, and several apps live on Render, Vercel, and Streamlit.
 
 - 🔭 **Building now:** RAG and LLM-powered apps, plus a multi-role LMS (React, Node, PostgreSQL)
 - 🌱 **Learning:** deployment, Docker, and advanced full-stack patterns
@@ -41,42 +40,94 @@ B.E. Computer Science student at **RVS Institute of Technology, Coimbatore (2024
 
 ## ⭐ Featured Projects
 
+| Project | One-liner | Stack | Demo |
+|---|---|---|---|
+| [RAG Chatbot](https://github.com/subashvelmurugan1408/RAG_Chatbot) | Answers questions grounded in your own documents | Next.js · Flask · Docker · HF | [Live](https://rag-chatbot-ost8.onrender.com) |
+| [PAIMANA](https://github.com/subashvelmurugan1408/SIH_PAIMANA_dashboard) | Predicts project cost/time overruns with explainability | FastAPI · XGBoost · SHAP · Next.js | — |
+| [Skin Cancer Detection](https://github.com/subashvelmurugan1408/skin_cancer_detector) | CNN screens lesion images as benign/malignant | TensorFlow · OpenCV · Streamlit | [Live](https://cancerdetectormodel-weight-btxikrbynmpc5hbczuhthc.streamlit.app/) |
+| [FoodExpress](https://github.com/subashvelmurugan1408/food-ordering-web) | Full order flow: browse → cart → checkout | Flask · MySQL · AWS RDS | [Live](https://food-ordering-web-1.onrender.com) |
+| [Elisa Study Chatbot](https://github.com/subashvelmurugan1408/TTS-STUDYBOT) | Voice-in, voice-out study assistant | Next.js · TypeScript · Groq | [Live](https://tts-studybot-one.vercel.app) |
+
+
 ### 🧠 [RAG Chatbot](https://github.com/subashvelmurugan1408/RAG_Chatbot) · [Live Demo](https://rag-chatbot-ost8.onrender.com)
-Ask questions about your documents and get answers grounded in retrieved context.
-- **Stack:** Next.js · Flask · Hugging Face Inference API (Qwen 2.5 7B) · Sentence Transformers · vector DB · Docker
-- **Outcome:** Frontend and backend packaged into a **single Docker container** and deployed on Render, with API keys kept in environment variables
+- **Problem:** LLMs answer confidently but don't know your documents.
+- **Approach:** Documents are embedded with Sentence Transformers and stored in a vector DB. The most relevant chunks are retrieved and passed to Qwen 2.5 7B (Hugging Face Inference API) to ground the answer.
+- **Result:** Next.js UI and Flask API shipped as a **single Docker container** on Render, with keys kept in environment variables.
+- **Stack:** Next.js · Flask · Docker · Hugging Face · vector search
 
 ### 📊 [PAIMANA: Project Risk Prediction](https://github.com/subashvelmurugan1408/SIH_PAIMANA_dashboard)
-AI dashboard that predicts **cost and time overruns** for projects.
-- **Stack:** FastAPI · XGBoost · scikit-learn · SHAP · Next.js 16 · React 19 · Tailwind
-- **Outcome:** Two trained models (cost and schedule), with REST endpoints for **risk scores, alerts, peer benchmarking, and cost-driver explanations**
+- **Problem:** Project cost and schedule overruns are usually spotted too late.
+- **Approach:** Two XGBoost models (cost and time) with imputers, served through FastAPI. SHAP explains which factors drive each prediction.
+- **Result:** A dashboard backed by endpoints for **risk scores, alerts, peer benchmarks, and cost drivers**.
+- **Stack:** FastAPI · XGBoost · SHAP · scikit-learn · Next.js 16 · React 19
 
 ### 🩺 [Skin Cancer Detection](https://github.com/subashvelmurugan1408/skin_cancer_detector) · [Live Demo](https://cancerdetectormodel-weight-btxikrbynmpc5hbczuhthc.streamlit.app/)
-CNN that classifies skin-lesion images as benign or malignant, with a confidence score.
-- **Stack:** Python · TensorFlow/Keras · OpenCV · Streamlit
-- **Outcome:** Trained from scratch on **HAM10000** plus a second dataset, with class-imbalance handling and augmentation; deployed as an upload-and-predict web app *(educational use only, not a diagnostic tool)*
+- **Problem:** Early screening of skin lesions needs a fast, accessible first look.
+- **Approach:** A 3-block CNN (224×224 input) trained from scratch on HAM10000 plus a second dataset, with class-imbalance handling and augmentation.
+- **Result:** Upload an image, get a benign/malignant prediction with a confidence score. *Educational use only, not a diagnostic tool.*
+- **Stack:** TensorFlow/Keras · OpenCV · Streamlit
 
 ### 🍔 [FoodExpress](https://github.com/subashvelmurugan1408/food-ordering-web) · [Live Demo](https://food-ordering-web-1.onrender.com)
-Full-stack food ordering site with auth, search, cart, checkout, and order history.
-- **Stack:** Flask · MySQL on AWS RDS · HTML/CSS/JS · Render
-- **Outcome:** Complete order flow from browsing to a success page, backed by a cloud-hosted database
+- **Problem:** A small food business needs an ordering flow, not just a menu page.
+- **Approach:** Flask app with user auth, searchable menu, cart, checkout, and order history, backed by MySQL on AWS RDS.
+- **Result:** The full journey from browsing to order confirmation, deployed on Render.
+- **Stack:** Flask · MySQL · AWS RDS · Render
+
+<img src="https://github.com/user-attachments/assets/7a006556-2017-4312-b2db-af5a605678b0" alt="FoodExpress home page" width="600">
 
 ### 🎙️ [Elisa Study Chatbot](https://github.com/subashvelmurugan1408/TTS-STUDYBOT) · [Live Demo](https://tts-studybot-one.vercel.app)
-Study assistant with **speech-to-text input and text-to-speech replies**.
-- **Stack:** Next.js 14 · TypeScript · Tailwind · Groq API · Web Speech API
-- **Outcome:** Subject-aware answers (math, science, history, English) with adjustable voice, pitch, and rate
+- **Problem:** Students often prefer asking out loud and hearing an answer back.
+- **Approach:** A Next.js chat UI using the Web Speech API for voice input and output, with Groq-powered, subject-aware replies.
+- **Result:** Hands-free studying with adjustable voice, pitch, and speed.
+- **Stack:** Next.js 14 · TypeScript · Groq · Web Speech API
 
 <details>
-<summary><b>More projects</b></summary>
+<summary><b>🤖 AI Study Helper</b> — Flask · Firebase Auth · Groq/LLaMA 3.1</summary>
 
-- 🤖 [**AI Study Helper**](https://github.com/subashvelmurugan1408/study-helper-chatbot): Flask + Firebase Auth + LLaMA 3.1 via Groq, with Explain / Example / Summary modes
-- 🦾 [**J.A.R.V.I.S.**](https://github.com/subashvelmurugan1408/voice-assistent-jarvis): fully offline voice assistant (LLaMA 3 via Ollama) with a live Iron-Man-style HUD showing CPU and RAM
-- 🎉 [**BLAST'26 Landing Page**](https://github.com/subashvelmurugan1408/blast-26-landing-page) · [Live](https://blast-26-landing-page.vercel.app): event site for the AI & DS Department's technical event
-- 🔐 [**JWT Auth System**](https://github.com/subashvelmurugan1408/auth-jwt-project): React + Express + MongoDB with bcrypt, protected routes, and admin/user roles
-- ✅ [**Task Manager API**](https://github.com/subashvelmurugan1408/db): Node + MongoDB REST API with JWT and full CRUD
-- 🌐 [**Portfolio Site**](https://github.com/subashvelmurugan1408/subash-codes-ai): Vite + React + shadcn/ui + Tailwind
-- 🛒 [**OnlineMart**](https://github.com/subashvelmurugan1408/OnlineMart-css): responsive HTML/CSS storefront
+Full-stack AI tutor with JWT auth, per-user chat history, and three modes (Explain / Example / Summary).
+[Repo](https://github.com/subashvelmurugan1408/study-helper-chatbot)
+</details>
 
+<details>
+<summary><b>🦾 J.A.R.V.I.S. Voice Assistant</b> — Python · Ollama (LLaMA 3) · Tkinter/HTML HUD</summary>
+
+Fully offline voice assistant with a live Iron-Man-style HUD showing CPU and RAM usage.
+[Repo](https://github.com/subashvelmurugan1408/voice-assistent-jarvis)
+</details>
+
+<details>
+<summary><b>🎉 BLAST'26 Landing Page</b> — Next.js · Vercel</summary>
+
+Event site for the AI & DS Department's technical event (Prompt Relay, Vibe Coding).
+[Repo](https://github.com/subashvelmurugan1408/blast-26-landing-page) · [Live](https://blast-26-landing-page.vercel.app)
+</details>
+
+<details>
+<summary><b>🔐 JWT Auth System</b> — React · Express · MongoDB · bcrypt</summary>
+
+Register/login flow with protected routes and admin/user roles.
+[Repo](https://github.com/subashvelmurugan1408/auth-jwt-project)
+</details>
+
+<details>
+<summary><b>✅ Task Manager API</b> — Node.js · MongoDB · JWT</summary>
+
+REST API with full CRUD and token-based auth.
+[Repo](https://github.com/subashvelmurugan1408/db)
+</details>
+
+<details>
+<summary><b>🌐 Portfolio Site</b> — Vite · React · shadcn/ui · Tailwind</summary>
+
+The site linked at the top of this profile.
+[Repo](https://github.com/subashvelmurugan1408/subash-codes-ai)
+</details>
+
+<details>
+<summary><b>🛒 OnlineMart</b> — HTML · CSS</summary>
+
+Responsive storefront layout for electronics, groceries, and vegetables.
+[Repo](https://github.com/subashvelmurugan1408/OnlineMart-css)
 </details>
 
 ---
