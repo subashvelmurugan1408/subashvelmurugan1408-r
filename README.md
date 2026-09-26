@@ -173,7 +173,7 @@ Responsive storefront layout for electronics, groceries, and vegetables.
  
 <div align="center">
 ![Stats](https://github-readme-stats-ajh8.vercel.app/api?username=subashvelmurugan1408&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats-beta-ten-30.vercel.app/api/top-langs/?username=subashvelmurugan1408&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats-ajh8.vercel.app/api/top-langs/?username=subashvelmurugan1408&layout=compact&theme=tokyonight&hide_border=true)
  
 </div>
 
