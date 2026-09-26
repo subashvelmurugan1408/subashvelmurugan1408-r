@@ -55,7 +55,9 @@ B.E. Computer Science student at **RVS Technical Campus, Coimbatore (2024–2028
 - **Result:** Next.js UI and Flask API shipped as a **single Docker container** on Render, with keys kept in environment variables.
 - **Stack:** Next.js · Flask · Docker · Hugging Face · vector search
 
+<p>
 <img src="assets/rag-chatbot.png" alt="RAG Chatbot conversation UI" width="600">
+</p>
 
 ### 📊 [PAIMANA: Project Risk Prediction](https://github.com/subashvelmurugan1408/SIH_PAIMANA_dashboard)
 - **Problem:** Project cost and schedule overruns are usually spotted too late.
@@ -69,7 +71,9 @@ B.E. Computer Science student at **RVS Technical Campus, Coimbatore (2024–2028
 - **Result:** Upload an image, get a benign/malignant prediction with a confidence score. *Educational use only, not a diagnostic tool.*
 - **Stack:** TensorFlow/Keras · OpenCV · Streamlit
 
+<p>
 <img src="assets/skin-cancer-detector.png" alt="Skin Cancer Detector Streamlit app" width="600">
+</p>
 
 ### 🍔 [FoodExpress](https://github.com/subashvelmurugan1408/food-ordering-web) · [Live Demo](https://food-ordering-web-1.onrender.com)
 - **Problem:** A small food business needs an ordering flow, not just a menu page.
@@ -89,7 +93,9 @@ B.E. Computer Science student at **RVS Technical Campus, Coimbatore (2024–2028
 - **Result:** Hands-free studying with adjustable voice, pitch, and speed.
 - **Stack:** Next.js 14 · TypeScript · Groq · Web Speech API
 
+<p>
 <img src="assets/tts-studybot.png" alt="Elisa Study Chatbot interface" width="600">
+</p>
 
 <details>
 <summary><b>🤖 AI Study Helper</b> — Flask · Firebase Auth · Groq/LLaMA 3.1</summary>
