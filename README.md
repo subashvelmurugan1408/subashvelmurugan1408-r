@@ -2,7 +2,7 @@
 
 # Hi, I'm Subash 👋
 
-### CS Engineering Student · ML & Full-Stack Developer
+### CS Engineering Student · AI Engineer & Full-Stack Developer
 
 *I build AI-powered apps end to end: from model and API to a deployed, usable interface.*
 
