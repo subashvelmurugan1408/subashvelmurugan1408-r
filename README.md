@@ -8,7 +8,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-subash--codes--ai.lovable.app-6C63FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://subash-codes-ai.lovable.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/subash-v-1557a832b)
-[![Email](https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@example.com)
+[![Email](https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:subashvelmurugan8@gmail.com)
 
 </div>
 
@@ -16,7 +16,7 @@
 
 ## 🚀 About Me
 
-B.E. Computer Science student at **RVS Technical Campus, Coimbatore (2024–2028)**. I like projects where machine learning meets a real interface: RAG chatbots, risk-prediction dashboards, medical-image classifiers, and voice assistants. I have an ML internship behind me, 14 public repositories, and several apps live on Render, Vercel, and Streamlit.
+B.E. Computer Science student at **RVS   institute of technology, Coimbatore (2024–2028)**. I like projects where machine learning meets a real interface: RAG chatbots, risk-prediction dashboards, medical-image classifiers, and voice assistants. I have an ML internship behind me, 14 public repositories, and several apps live on Render, Vercel, and Streamlit.
 
 - 🔭 **Building now:** RAG and LLM-powered apps, plus a multi-role LMS (React, Node, PostgreSQL)
 - 🌱 **Learning:** deployment, Docker, and advanced full-stack patterns
@@ -56,7 +56,8 @@ B.E. Computer Science student at **RVS Technical Campus, Coimbatore (2024–2028
 - **Stack:** Next.js · Flask · Docker · Hugging Face · vector search
 
 <p>
-<img src="assets/rag-chatbot.png" alt="RAG Chatbot conversation UI" width="600">
+<img width="1703" height="810" alt="rag-chatbot" src="https://github.com/user-attachments/assets/98014e18-c43c-4a38-9397-b2abfc548ac4" />
+
 </p>
 
 ### 📊 [PAIMANA: Project Risk Prediction](https://github.com/subashvelmurugan1408/SIH_PAIMANA_dashboard)
@@ -72,7 +73,8 @@ B.E. Computer Science student at **RVS Technical Campus, Coimbatore (2024–2028
 - **Stack:** TensorFlow/Keras · OpenCV · Streamlit
 
 <p>
-<img src="assets/skin-cancer-detector.png" alt="Skin Cancer Detector Streamlit app" width="600">
+<img width="1917" height="848" alt="skin-cancer-detector" src="https://github.com/user-attachments/assets/15309de2-4f68-4a5a-90b6-1c4b5afd5da4" />
+
 </p>
 
 ### 🍔 [FoodExpress](https://github.com/subashvelmurugan1408/food-ordering-web) · [Live Demo](https://food-ordering-web-1.onrender.com)
@@ -94,7 +96,8 @@ B.E. Computer Science student at **RVS Technical Campus, Coimbatore (2024–2028
 - **Stack:** Next.js 14 · TypeScript · Groq · Web Speech API
 
 <p>
-<img src="assets/tts-studybot.png" alt="Elisa Study Chatbot interface" width="600">
+<img width="1916" height="797" alt="tts-studybot" src="https://github.com/user-attachments/assets/b46e3254-ebf8-4455-8e7c-f3330bed6863" />
+
 </p>
 
 <details>
@@ -150,10 +153,10 @@ Responsive storefront layout for electronics, groceries, and vegetables.
 
 ## 💼 Experience
 
-**Machine Learning Intern**: App Innovation Technologies, Coimbatore
-- Worked on Python-based computer vision: object detection and OCR
+*  Full Stack Intern**: synx vantage, Cuddalore
+- Worked on full stack with Python: food delivery website
 
-**Placement Coordinator (Department)**: RVS Technical Campus
+**Placement Coordinator (Department)**: RVS Institute of Technology
 - Organize student tracks across placement, higher studies, and entrepreneurship
 - Built a Google Sheets tracker with dashboards and categorization workflows
 
@@ -161,8 +164,8 @@ Responsive storefront layout for electronics, groceries, and vegetables.
 
 ## 🎓 Education
 
-**B.E. Computer Science & Engineering**: RVS Technical Campus, Coimbatore *(2024–2028)*
-Operating Systems · DBMS · AI/ML · Algorithms
+**B.E. Computer Science & Engineering**: RVS Institute of Technology, Coimbatore *(2024–2028)*
+
 
 ---
 
