@@ -187,7 +187,7 @@ Responsive storefront layout for electronics, groceries, and vegetables.
 
 - 🌐 [subash-codes-ai.lovable.app](https://subash-codes-ai.lovable.app)
 - 💼 [LinkedIn](https://linkedin.com/in/subash-v-1557a832b)
-- 📧 YOUR_EMAIL@example.com
+- 📧 subashvelmurugan8@gmail.com
 
 ## 💬 Let's Build Something
 
