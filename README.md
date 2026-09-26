@@ -172,9 +172,12 @@ Responsive storefront layout for electronics, groceries, and vegetables.
 ## 📊 GitHub Stats
  
 <div align="center">
-![Stats](https://github-readme-stats-ajh8.vercel.app/api?username=subashvelmurugan1408&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats-ajh8.vercel.app/api/top-langs/?username=subashvelmurugan1408&layout=compact&theme=tokyonight&hide_border=true)
- 
+<a href="https://github.com/subashvelmurugan1408">
+<img src="https://github-readme-stats-ajh8.vercel.app/api?username=subashvelmurugan1408&show_icons=true&theme=tokyonight&hide_border=true" alt="Subash's GitHub stats">
+</a>
+<a href="https://github.com/subashvelmurugan1408">
+<img src="https://github-readme-stats-ajh8.vercel.app/api/top-langs/?username=subashvelmurugan1408&layout=compact&theme=tokyonight&hide_border=true" alt="Subash's most used languages">
+</a>
 </div>
 
 
